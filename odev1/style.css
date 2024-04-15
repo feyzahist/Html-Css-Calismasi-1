@@ -1,0 +1,80 @@
+
+input{
+    border:none;
+    outline: none;
+    border: 1px solid #dfe3e9;
+}
+.anadiv{
+    border-radius: 8px;
+    width: 750px;
+    margin: 0 auto;
+    padding:16px;
+    border-color:gray;
+    box-shadow: 1px 2px 5px 5px gray;
+}
+.kyazi{
+    color: 131717;
+    font-weight: bold;
+    font-family:tahoma;
+    
+}
+.yolculist{
+    border:none;
+    color:131717;
+    
+}
+.ustliste{
+    /*justify-content: space-between; Kullanım amacı ilk nesneyi sola ikinci nesneyi sağa hizalamak için*/
+    justify-content: space-between;
+    display: flex;
+    
+}
+.yazi{
+    justify-content:space-between;
+    display: inline;
+}
+.yazidiv{
+    color:131717;
+    font-family: tahoma;
+    
+}
+.yazidiv p:nth-child(1){
+    margin-right: 350px;
+}
+.inputdiv input:first-child{
+    margin-right: 62px;
+}
+.inputdiv input{
+    border-radius: 4px;
+}
+.dogumsecim{
+    justify-content: space-between;
+    display: inline;
+}
+.dogumdiv p:first-child{
+    margin-right: 275px;
+}
+.dogumdiv{
+    color: 131717;
+    font-family: tahoma;
+}
+.dogumliste input:nth-child(3){
+    margin-right:160px;
+}
+.bagajyazi{
+    color:131717;
+    font-family:tahoma;
+    
+}
+.bagajdiv{
+    justify-content: space-between;
+    display: inline;
+}
+.listeyolcu i:first-child{
+    margin-right: 25px;
+}
+#yas{
+    border-radius:4px;
+    width:80px;
+    height:30px;
+}
